@@ -1,0 +1,25 @@
+body {
+    text-align: center;
+    margin: auto;
+}
+
+#board {
+    border: black 1px solid;
+    width: 710px; /* 6 * 110 + 40*/
+    height: 350px; /* 3 * 100 + 2 * 20*/
+    padding: 20px;
+    margin: 0px auto;
+}
+
+.card {
+    background: url(https://i2.wp.com/codebits.eu/logos/defaultavatar.jpg)
+        no-repeat;
+	transform: perspective( 600px ) rotateY( 0deg );
+	transition: transform .5s linear 0s;
+    border: black 1px solid;
+    width: 95px;
+    height: 95px;
+    float: left;
+    margin: 10px;
+}
+
